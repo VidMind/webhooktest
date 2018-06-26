@@ -4,3 +4,4 @@ node ('master') {
         sh "echo ${GIT_BRANCH}"   
     }
 }
+
