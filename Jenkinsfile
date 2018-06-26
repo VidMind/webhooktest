@@ -1,7 +1,6 @@
 node ('master') {
     stage ("Build") {
-        sh "env"
-        sh "echo ${GIT_BRANCH} "   
+        sh "env && echo ${GIT_BRANCH} "   
     }
 }
 
